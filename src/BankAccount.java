@@ -40,7 +40,6 @@ class ATM {
         System.out.print("Masukkan PIN Anda: ");
         String pin = scanner.nextLine().trim();
 
-        // Use default values if user input is empty
         nomorRekening = nomorRekening.isEmpty() ? "123456789" : nomorRekening;
         pin = pin.isEmpty() ? "1234" : pin;
 
